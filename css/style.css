@@ -1,0 +1,303 @@
+:root {
+    --main-color: #1EACC7;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    height: 50px;
+    background: #212121;
+    position: relative;
+    position: fixed;
+    width: 100%;
+}
+
+
+.container {
+    width: 1140px;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu_item {
+    padding: 13px 34px;
+    list-style-type: none;    
+}
+
+.menu li:not(:last-child) {
+    border-right: 2px dotted #000;
+}
+
+.menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.subheader {
+    height: 84px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 18px 0 20px 0;
+    position: absolute;
+    
+}
+
+.subheader_logo {
+    max-width: 100%;
+}
+
+.subheader_official {
+    font-size: 13px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.subheader_call {
+    text-align: right;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+}
+
+.subheader_phone {
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+
+.main {
+    background: url('/img/images/uber_bg.jpg') center center/cover no-repeat;
+    min-height: 799px;
+    padding: 150px 0 186px 0;
+}
+
+.main_heading {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 70px 0 20px 0;
+}
+.sub_heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.main_content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.main_btn {
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 116px;
+}
+
+
+
+.reasons {
+    min-height: 850px;
+    padding: 20px 0 64px 0;    
+}
+
+.label {
+    width: 113px;
+    height: 24px;
+    background-color: #000;
+    position: relative;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 auto;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #222;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.reasons_row {
+    margin-top: 16px;
+}
+
+.reasons_round {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.reasons_descr {
+    margin-left: 25px;
+    width: 343px;
+
+}
+
+.reasons_title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: var(--main-color);
+}
+
+.reasons_title span {
+    color: white;
+}
+
+.reasons_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+    text-align: justify;
+}
+
+
+.app {
+    padding: 46px 0 80px 0;
+    background: url('/img/images/mobile_bg.jpg') center center/cover no-repeat;
+    min-height: 864px;
+}
+
+.sub_title {
+    font-weight: 400;
+    font-size: 17px;
+    color: #222;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.app_card1,
+.app_card2,
+.app_card3,
+.app_card4,
+.app_card5,
+.app_card6 {
+    width: 320px;
+    height: 280px;
+}
+
+.app_card1 {
+    background: url(/img/icons/section3/card_1.jpg) center center/cover no-repeat;
+    margin-left: 23px;
+    margin-right: 67px;
+    padding-top: 82.5px;
+    padding-bottom: 34px;
+    margin-bottom: 20px;
+}
+
+.app_title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.plus {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 72.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_card2 {
+    background: url(/img/icons/section3/card_2.jpg) center center/cover no-repeat;
+    margin-right: 68px;
+    padding-top: 82.5px;
+    padding-bottom: 34px;
+}
+
+.app_card3 {
+    background: url(/img/icons/section3/card_3.jpg) center center/cover no-repeat;
+    padding-top: 82.5px;
+    padding-bottom: 34px;
+}
+
+.app_card4 {
+    background: url(/img/icons/section3/card_4.jpg) center center/cover no-repeat;
+    margin-left: 23px;
+    padding-bottom: 77px;
+    padding-top: 82.5px;
+}
+
+.app_card5 {
+    background: url(/img/icons/section3/card_5.jpg) center center/cover no-repeat;
+    padding-top: 82.5px;
+}
+
+.app_card6 {
+    background: url(/img/icons/section3/card_6.jpg) center center/cover no-repeat;
+    padding-top: 82.5px;
+}
+
